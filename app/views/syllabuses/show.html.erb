@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+<%= image_tag @syllabus.syllabi_upload.url(:small) %>
+<p>
+  <b>Subject:</b>
+  <%= @syllabus.subject %>
+</p>
+
+<p>
+  <b>Professor:</b>
+  <%= @syllabus.professor %>
+</p>
+
+
+<%= link_to 'Edit', edit_syllabus_path(@syllabus) %> |
+<%= link_to 'Back', syllabuses_path %>
