@@ -1,7 +1,9 @@
 Syllabi::Application.routes.draw do
   resources :syllabuses
 
-  root :to => 'syllabuses#index'
+  root :to => 'static#home'
+  match '/new', :to => 'syllabuses#new'
+  
   match '/about', :to => 'static#about'
 
   # The priority is based upon order of creation:
