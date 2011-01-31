@@ -13,7 +13,7 @@
   <tr>
     <td><%= syllabus.subject %></td>
     <td><%= syllabus.professor %></td>
-    <td class="options"><%= link_to 'Show', syllabus %></td>
+    <td class="options"><%= link_to 'Syllabus', syllabus %></td>
     <td class="options"><%= link_to 'Edit', edit_syllabus_path(syllabus) %></td>
     <td><!--<%= link_to 'Destroy', syllabus, :confirm => 'Are you sure?', :method => :delete %>--></td>
   </tr>
@@ -22,4 +22,5 @@
 
 <br />
 
-<%= link_to 'New Syllabus', new_syllabus_path %>
+<%= link_to 'New Syllabus', new_syllabus_path %><br/>
+<%= link_to 'Home Page', root_path %>
