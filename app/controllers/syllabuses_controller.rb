@@ -2,7 +2,7 @@ class SyllabusesController < ApplicationController
   # GET /syllabuses
   # GET /syllabuses.xml
   
-  before_filter :authenticate_user!, :except => ['static#show', 'static#about']
+  before_filter :authenticate_user!
   
   def index
     @syllabuses = Syllabus.all
