@@ -6,4 +6,11 @@ class User < ActiveRecord::Base
 
   # Setup accessible (or protected) attributes for your model
   attr_accessible :email, :password, :password_confirmation
+  
+  email_regex =/\@hartford\.edu$/
+  
+
+  validates :email, :presence => true,
+                    :format => {:with => email_regex}
+                      
 end
