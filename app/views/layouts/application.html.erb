@@ -7,22 +7,11 @@
   <%= csrf_meta_tag %>
 </head>
 <body>
-	<div id="wrapper">
-<%= notice %>
-<%= alert %>
+	
+<!--<%= notice %>
+<%= alert %>-->
+
 <%= yield %>
-<%= link_to "Home", root_path %>
-<div id="user_nav">
-	<% if user_signed_in? %>
-	Signed in as <%= current_user.email %>. Not you?
-	<%= link_to "Sign out", destroy_user_session_path  %>
-	<% else %>
-	<%= link_to "Sign up", new_user_registration_path%> or <%= link_to "Sign in", new_user_session_path %>
-	<% end %><br/>
-</div>
-</div><!--Closes the signup div-->
-</div><!--Closes the sign-in div-->	
-</div><!--Closes the forgot div-->
-</div><!--Closes the wrapper div-->
+
 </body>
 </html>

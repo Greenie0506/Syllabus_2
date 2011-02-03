@@ -1,4 +1,12 @@
 <div class="signin">
+	<div id="log_nav">
+		<ul>
+			<li><%= link_to "Home", root_path %></li>
+			<li><%= link_to 'About Page', about_path %></li>
+			<li><%= link_to "Sign up", new_user_registration_path%></li>	
+		</ul>
+	</div><!--Closes the log_nav -->
+	
 <h2>Sign in</h2>
 
 <%= form_for(resource_name, resource, :url => session_path(resource_name)) do |f| %>
@@ -18,3 +26,5 @@
 <%- if devise_mapping.recoverable? && controller_name != 'passwords' %>
   <%= link_to "Forgot your password?", new_password_path(resource_name) %><br />
 <% end -%>
+	
+</div><!--Closes the sign-in div-->

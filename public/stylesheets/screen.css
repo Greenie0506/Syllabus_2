@@ -5,16 +5,43 @@ body{
 	
 #wrapper{
 		width:960px;
-		margin:0 auto;
+		margin:2px auto;
+		background:#ffffff;
+		height:500px;
+		border:1.5px solid #cccccc;
+		-moz-border-radius:10px;
+		-webkit-border-radius:10px;
+		-moz-box-shadow:0 0 1px #a1a1a1;
+		-webkit-box-shadow:0 0 1px #a1a1a1;
+		box-shadow:0 0 1px #a1a1a1;
+		border-radius:10px;
+		color:#485156;
 		}
+		
+#user_nav{
+		 display:inline;
+		 float:right;
+		 width:850px;
+		 height:45px; 
+		 }
+	
+#user_nav ul li{
+	           padding:0 20px 0 10px;
+	           display:inline;
+	           float:right;
+	           }
+	
+#log_nav{float:right; width:275px; display:inline; margin-top:-35px; margin-right:5px;}	
+	
+#log_nav ul li{display:inline; padding:0 20px 0 0;}
 		
 .register{		
 		  width:370px;
 		  background:#ffffff;
 		  margin:50px auto;
-	      height:340px;
+	      height:320px;
 	      padding-left:50px;
-		  padding-top:10px;
+		  padding-top:35px;
 		  padding-bottom:25px;
 		  border:1.5px solid #cccccc;
 		  -moz-border-radius:10px;
@@ -30,9 +57,9 @@ body{
 	    width:370px;
 		background:#ffffff;
   		margin:50px auto;
-	    height:305px;
+	    height:290px;
 	    padding-left:50px;
-		padding-top:10px;
+		padding-top:35px;
 		padding-bottom:25px;
 		border:1.5px solid #cccccc;
 		-moz-border-radius:10px;
