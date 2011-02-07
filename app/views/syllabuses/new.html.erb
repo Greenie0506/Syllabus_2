@@ -1,5 +1,16 @@
+<div class="upload">
+		<div id="upload_nav">
+			<ul>
+				<li><%= link_to "Home", root_path %></li>
+				<li><%= link_to 'About Page', about_path %></li>
+				<li><%= link_to 'View all Syllabi', syllabuses_path %></li>	
+			</ul>
+		</div><!--Closes the log_nav -->
+		<br/>
 <h2>New syllabus</h2>
 
 <%= render 'form' %>
 
 <%= link_to 'Back', syllabuses_path %><br/>
+
+</div><!--Closes wrapper div -->
