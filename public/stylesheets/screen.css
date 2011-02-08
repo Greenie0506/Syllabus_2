@@ -1,11 +1,11 @@
 body{
-	 background:url(../images/bg_3.png) repeat;
+	 background:url(../images/bg_2.png) repeat;
 	 font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
 	 }
 	
 #wrapper{
 		width:960px;
-		margin:2px auto;
+		margin:15px auto;
 		background:#ffffff;
 		height:500px;
 		border:1.5px solid #cccccc;
@@ -124,7 +124,27 @@ body{
 	box-shadow:0 0 1px #a1a1a1;
 	border-radius:10px;
 	color:#485156;
+		}
+#intro{
+	margin:90px auto;
+	width:700px;
+	height:400px;	
 }
+
+#about{
+	margin:90px auto;
+	width:700px;
+	height:400px;
+}
+
+#copy{
+	padding-left:20px;
+	font-size:7pt;
+	margin: -100px auto;
+	}
+
+.name{font-weight:bold; font-size:12pt;}
+.title{font-weight:bold; font-size:10pt;}
 a{
   text-decoration:none;
   color:#485156;
