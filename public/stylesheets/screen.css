@@ -151,3 +151,8 @@ a{
   }
 
 a:hover{text-decoration:underline;}
+
+#error_explanation{width:500px; background:#ffffff;border: 1px #485156 solid;}
+#error_explanation h2{background:#485156; border: 1px #485156 solid;}
+
+.field_with_errors{border: 1px #485156 solid;background:#485156;color:#ffffff;}
